@@ -1,0 +1,40 @@
+@import '../utils/variables';
+@import '../base/typography';
+
+footer{
+	background-color:$_background-footer;
+
+	h2{
+		font-size: xx-large;
+		padding: 1em 0;
+		color: $_title-footer;
+		font-family: $_roboto;
+	}
+	ul{
+		display: flex;
+		justify-content: space-evenly;
+		margin: 1em;
+
+
+		font-size: large;
+		a{
+			color: #4a8e7f;
+		}
+	}
+
+	.contact{
+		margin-top: 3em;
+		height: 5em;
+		ul{
+			margin: 0 auto;
+			display: flex;
+			flex-direction: row;
+			
+			width: 70%;
+
+			justify-content: space-around;
+
+		}
+
+	}
+}

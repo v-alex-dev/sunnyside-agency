@@ -1,0 +1,28 @@
+@import '../utils/variables';
+@import '../components/nav-bar';
+
+header {
+	background-image: url('/resources/images/photos/image-header.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	width: 100%;
+
+	height: 30em;
+
+	color: $_white;
+
+
+	.title{
+		margin: 0 auto;
+		width: 50%;
+		margin-top: 12%;
+		h1{
+			font-size: 3em;
+		}
+
+		img{
+			margin-top: 1em;
+		}
+	}
+}

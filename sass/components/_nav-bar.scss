@@ -1,0 +1,23 @@
+nav{
+	
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+
+	margin: 0 1.5em;
+	padding-top: 1em;
+	.menu{
+		background-image: url('../../resources/images/icons/icon-hamburger.svg');
+		width: 5%;
+		flex-direction: row;
+		ul{
+			a{
+				display: none;
+			}
+		}
+	}
+
+	p{
+		font-size: x-large;
+	}
+}

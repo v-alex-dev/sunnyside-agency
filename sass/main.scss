@@ -1,0 +1,14 @@
+@import './base/reset';
+@import './base/typography';
+
+// Header
+
+@import './layout/header';
+
+// Body
+@import './layout/description';
+@import './layout/gallery';
+@import './layout/specializing';
+@import './layout/clients';
+// Footer
+@import './layout/footer';

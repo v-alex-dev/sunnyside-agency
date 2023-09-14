@@ -1,0 +1,151 @@
+@import url("https://fonts.googleapis.com/css2?family=Forum&family=Kanit:wght@600&family=Noto+Serif+JP:wght@500&family=Rosarivo&family=Rubik+Iso&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Forum&family=Kanit:wght@600&family=Noto+Serif+JP:wght@500&family=Roboto:wght@700&family=Rosarivo&family=Rubik+Iso&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Forum&family=Kanit:wght@600&family=Noto+Serif+JP:wght@500&family=Rosarivo&family=Rubik+Iso&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Forum&family=Kanit:wght@600&family=Noto+Serif+JP:wght@500&family=Roboto:wght@700&family=Rosarivo&family=Rubik+Iso&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Forum&family=Kanit:wght@600&family=Noto+Serif+JP:wght@500&family=Rosarivo&family=Rubik+Iso&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Forum&family=Kanit:wght@600&family=Noto+Serif+JP:wght@500&family=Roboto:wght@700&family=Rosarivo&family=Rubik+Iso&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  font-weight: bold;
+  font-family: "Forum", cursive;
+}
+
+html {
+  width: 100%;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 1.5em;
+  padding-top: 1em;
+}
+nav .menu {
+  background-image: url("../../resources/images/icons/icon-hamburger.svg");
+  width: 5%;
+  flex-direction: row;
+}
+nav .menu ul a {
+  display: none;
+}
+nav p {
+  font-size: x-large;
+}
+
+header {
+  background-image: url("/resources/images/photos/image-header.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 100%;
+  height: 30em;
+  color: white;
+}
+header .title {
+  margin: 0 auto;
+  width: 50%;
+  margin-top: 12%;
+}
+header .title h1 {
+  font-size: 3em;
+}
+header .title img {
+  margin-top: 1em;
+}
+
+.descri-article {
+  display: grid;
+  grid-template-rows: 0.5fr;
+}
+.descri-article img {
+  width: 100%;
+}
+
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+.gallery img {
+  width: 100%;
+}
+
+.specializing .cherry {
+  background-image: url("../../resources/images/photos/image-graphic-design.jpg");
+  background-position: center;
+  background-size: cover;
+}
+.specializing .cherry h3 {
+  color: #24544c;
+}
+.specializing .cherry p {
+  color: #1e5b4c;
+}
+.specializing .orange {
+  background-image: url("../../resources/images/photos/image-photography.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.specializing .card {
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  padding: 1em;
+  height: 30em;
+}
+.specializing article {
+  margin: 0 auto;
+}
+.specializing article h3 {
+  font-size: xx-large;
+}
+.specializing article p {
+  font-size: x-large;
+}
+
+.clients img {
+  border-radius: 50%;
+  width: 20%;
+}
+
+footer {
+  background-color: #90d4c5;
+}
+footer h2 {
+  font-size: xx-large;
+  padding: 1em 0;
+  color: #2d7665;
+  font-family: "Kanit", sans-serif;
+}
+footer ul {
+  display: flex;
+  justify-content: space-evenly;
+  margin: 1em;
+  font-size: large;
+}
+footer ul a {
+  color: #4a8e7f;
+}
+footer .contact {
+  margin-top: 3em;
+  height: 5em;
+}
+footer .contact ul {
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  width: 70%;
+  justify-content: space-around;
+}/*# sourceMappingURL=main.css.map */

@@ -1,0 +1,22 @@
+@import './typography';
+
+*{
+	margin: 0;
+	padding: 0;
+	text-align: center;
+	font-weight: bold;
+	font-family: $_forum;
+}
+
+html{
+	width: 100%;
+}
+
+ul{
+	list-style: none;
+}
+
+a{
+	text-decoration: none;
+	color: white;
+}
