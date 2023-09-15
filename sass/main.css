@@ -36,7 +36,7 @@ nav {
   padding-top: 1em;
 }
 nav .menu {
-  background-image: url("../../resources/images/icons/icon-hamburger.svg");
+  background-image: url("./resources/images/icons/icon-hamburger.svg");
   width: 1em;
   height: 1em;
 }
