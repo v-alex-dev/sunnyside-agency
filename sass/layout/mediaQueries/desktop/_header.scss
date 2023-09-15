@@ -1,0 +1,26 @@
+header{
+  nav{
+    justify-content: space-between;
+    .menu{
+      background-image: none;
+      display: flex;
+      flex-direction: row-reverse;
+      
+      ul{
+        display: flex;
+      }
+
+      a{
+        display: flex;
+        margin: 1em;
+        align-items: center;
+        background-color: white;
+      }
+
+      .nav-contact{
+        border-radius: 40%;
+        color: black;
+      }
+    }
+  }
+}

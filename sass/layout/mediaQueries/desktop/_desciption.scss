@@ -1,0 +1,30 @@
+.description{
+
+
+  .art-row{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    
+    text-align: start;
+    
+  }
+  #reverse{
+    display: flex;
+    flex-direction: row-reverse;
+    .descri-article{
+      width: 50%;
+    }
+  }
+
+  h2{
+    text-align: start;
+  }
+  p{
+    text-align: start;
+  }
+  
+  .btn-learn{
+    display: flex;
+  }
+}
