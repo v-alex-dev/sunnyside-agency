@@ -1,24 +1,20 @@
 @import '../utils/variables';
 
 .specializing{
-	.cherry{
-		background-image: url('../../resources/images/photos/image-graphic-design.jpg');
+  
+  .cherry{
+    background-image: url('../../resources/images/photos/image-graphic-design.jpg');
 		background-position: center;
 		background-size: cover;
-		h3{
-			color: $_title-cherry;
-			
-		}
-		p{
-			color: $_p-cherry;
-		}
+    color: $_title-cherry;
 	}
 	
 	.orange{
-		background-image: url('../../resources/images/photos/image-photography.jpg');
+    background-image: url('../../resources/images/photos/image-photography.jpg');
 		background-position: center;
 		background-repeat: no-repeat;
 		background-size: cover;
+    color: $_text-photography;
 	}
 	
 	.card{
@@ -32,10 +28,13 @@
 	article{
 		margin: 0 auto;
 		h3{
-			font-size: xx-large;
+      margin: 1em;
+      font-size: xx-large;
+      font-family: $_fraunces;
 		}
 		p{
-			font-size: x-large;
+      margin-bottom: 1em;
+      line-height: 27px;
 		}
 	}
 }

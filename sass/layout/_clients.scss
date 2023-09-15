@@ -1,6 +1,41 @@
+@import '../utils/variables';
+
 .clients{
 	img{
-		border-radius: 50%;
-		width: 20%;
+    border-radius: 50%;
+		width: 4.5em;
 	}
+  div{
+    margin: 2em auto;
+    width: 85%;
+  }
+
+  h2{
+    font-size: 1.5em;
+    margin: 1.5em 0;
+    color:$_client-transpar;
+    line-height: 19.27px;
+    letter-spacing: 4px;
+  }
+
+  article{
+    margin: 2em 0;
+  }
+
+  h4{
+    
+    font-size: larger;
+  }
+
+  p{
+    line-height: 2em;
+  }
+
+  .art-footer{
+    p{
+      color: $_client-transpar;
+      margin: 0.5em;
+      line-height: 25px;
+    }
+  }
 }

@@ -1,6 +1,39 @@
+@import '../utils/variables';
+@import '../base/typography';
+
 .descri-article{
 	display: grid;
 	grid-template-rows: 0.5fr;
+
+  article{
+    width: 80%;
+    margin: 3em auto;
+    
+
+    h2{
+      margin: 1em 0;
+      font-family: $_fraunces;
+      line-height: 39.32px;
+      font-size: xx-large;
+    }
+
+    p{
+      margin: 1em 0;
+      color: $_grayBlue;
+      line-height: 30px;
+    }
+
+    a{
+      color: black;
+      font-family: $_fraunces;
+      &::after{
+        content: ' ';
+        display: block;
+        background-color: $_softRed;
+        border-radius: 25%;
+      }
+    }
+  }
 
 	img{
 		width: 100%;

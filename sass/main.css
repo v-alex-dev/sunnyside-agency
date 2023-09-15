@@ -1,15 +1,18 @@
-@import url("https://fonts.googleapis.com/css2?family=Forum&family=Kanit:wght@600&family=Noto+Serif+JP:wght@500&family=Rosarivo&family=Rubik+Iso&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Forum&family=Kanit:wght@600&family=Noto+Serif+JP:wght@500&family=Roboto:wght@700&family=Rosarivo&family=Rubik+Iso&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Forum&family=Kanit:wght@600&family=Noto+Serif+JP:wght@500&family=Rosarivo&family=Rubik+Iso&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Forum&family=Kanit:wght@600&family=Noto+Serif+JP:wght@500&family=Roboto:wght@700&family=Rosarivo&family=Rubik+Iso&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Forum&family=Kanit:wght@600&family=Noto+Serif+JP:wght@500&family=Rosarivo&family=Rubik+Iso&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Forum&family=Kanit:wght@600&family=Noto+Serif+JP:wght@500&family=Roboto:wght@700&family=Rosarivo&family=Rubik+Iso&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Barlow:wght@100;600&family=Fraunces:opsz,wght@9..144,600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Barlow:wght@100;600&family=Fraunces:opsz,wght@9..144,600;9..144,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Barlow:wght@100;600&family=Fraunces:opsz,wght@9..144,600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Barlow:wght@100;600&family=Fraunces:opsz,wght@9..144,600;9..144,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Barlow:wght@100;600&family=Fraunces:opsz,wght@9..144,600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Barlow:wght@100;600&family=Fraunces:opsz,wght@9..144,600;9..144,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Barlow:wght@100;600&family=Fraunces:opsz,wght@9..144,600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Barlow:wght@100;600&family=Fraunces:opsz,wght@9..144,600;9..144,900&display=swap");
 * {
   margin: 0;
   padding: 0;
   text-align: center;
   font-weight: bold;
-  font-family: "Forum", cursive;
+  font-family: "Barlow", sans-serif;
+  font-size: 18px;
 }
 
 html {
@@ -34,8 +37,8 @@ nav {
 }
 nav .menu {
   background-image: url("../../resources/images/icons/icon-hamburger.svg");
-  width: 5%;
-  flex-direction: row;
+  width: 1em;
+  height: 1em;
 }
 nav .menu ul a {
   display: none;
@@ -51,7 +54,7 @@ header {
   background-position: center;
   width: 100%;
   height: 30em;
-  color: white;
+  color: hsl(0, 0%, 100%);
 }
 header .title {
   margin: 0 auto;
@@ -69,6 +72,31 @@ header .title img {
   display: grid;
   grid-template-rows: 0.5fr;
 }
+.descri-article article {
+  width: 80%;
+  margin: 3em auto;
+}
+.descri-article article h2 {
+  margin: 1em 0;
+  font-family: "Fraunces", serif;
+  line-height: 39.32px;
+  font-size: xx-large;
+}
+.descri-article article p {
+  margin: 1em 0;
+  color: hsl(210, 4%, 67%);
+  line-height: 30px;
+}
+.descri-article article a {
+  color: black;
+  font-family: "Fraunces", serif;
+}
+.descri-article article a::after {
+  content: " ";
+  display: block;
+  background-color: hsl(7, 99%, 70%);
+  border-radius: 25%;
+}
 .descri-article img {
   width: 100%;
 }
@@ -85,18 +113,14 @@ header .title img {
   background-image: url("../../resources/images/photos/image-graphic-design.jpg");
   background-position: center;
   background-size: cover;
-}
-.specializing .cherry h3 {
   color: #24544c;
-}
-.specializing .cherry p {
-  color: #1e5b4c;
 }
 .specializing .orange {
   background-image: url("../../resources/images/photos/image-photography.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  color: hsl(198, 62%, 26%);
 }
 .specializing .card {
   display: flex;
@@ -109,15 +133,43 @@ header .title img {
   margin: 0 auto;
 }
 .specializing article h3 {
+  margin: 1em;
   font-size: xx-large;
+  font-family: "Fraunces", serif;
 }
 .specializing article p {
-  font-size: x-large;
+  margin-bottom: 1em;
+  line-height: 27px;
 }
 
 .clients img {
   border-radius: 50%;
-  width: 20%;
+  width: 4.5em;
+}
+.clients div {
+  margin: 2em auto;
+  width: 85%;
+}
+.clients h2 {
+  font-size: 1.5em;
+  margin: 1.5em 0;
+  color: #A7AAAD;
+  line-height: 19.27px;
+  letter-spacing: 4px;
+}
+.clients article {
+  margin: 2em 0;
+}
+.clients h4 {
+  font-size: larger;
+}
+.clients p {
+  line-height: 2em;
+}
+.clients .art-footer p {
+  color: #A7AAAD;
+  margin: 0.5em;
+  line-height: 25px;
 }
 
 footer {
@@ -127,7 +179,7 @@ footer h2 {
   font-size: xx-large;
   padding: 1em 0;
   color: #2d7665;
-  font-family: "Kanit", sans-serif;
+  font-family: "Fraunces", serif;
 }
 footer ul {
   display: flex;
@@ -148,4 +200,70 @@ footer .contact ul {
   flex-direction: row;
   width: 70%;
   justify-content: space-around;
+}
+
+@media screen and (min-width: 1024px) {
+  header nav {
+    justify-content: space-between;
+  }
+  header nav .menu {
+    background-image: none;
+    display: flex;
+    flex-direction: row-reverse;
+  }
+  header nav .menu ul {
+    display: flex;
+  }
+  header nav .menu a {
+    display: flex;
+    margin: 1em;
+    align-items: center;
+    background-color: white;
+  }
+  header nav .menu .nav-contact {
+    border-radius: 40%;
+    color: black;
+  }
+  .description .art-row {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    text-align: start;
+  }
+  .description #reverse {
+    display: flex;
+    flex-direction: row-reverse;
+  }
+  .description #reverse .descri-article {
+    width: 50%;
+  }
+  .description h2 {
+    text-align: start;
+  }
+  .description p {
+    text-align: start;
+  }
+  .description .btn-learn {
+    display: flex;
+  }
+  .specializing {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .clients {
+    display: flex;
+    flex-direction: column;
+  }
+  .clients .clients-body {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+  }
+  .gallery {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+  }
+  footer .link {
+    margin: 0 auto;
+    width: 50%;
+  }
 }/*# sourceMappingURL=main.css.map */
