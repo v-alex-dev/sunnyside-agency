@@ -48,7 +48,7 @@ nav p {
 }
 
 header {
-  background-image: url("../resources/images/photos/image-header.jpg");
+  background-image: url("../../resources/images/photos/image-header.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
