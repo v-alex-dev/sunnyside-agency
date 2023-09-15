@@ -26,5 +26,33 @@
   
   .btn-learn{
     display: flex;
+    .redCyan{
+      &::after { 
+        content: " ";
+        position:relative;
+        display:block;
+        width: 100%;
+        height:10px;
+        background-color: $_Yellow;
+        color: red;
+        font-weight: bold;
+        top: -8px;
+        
+      }
+    }
+
+    .yellow{
+      &::after { 
+        content: " ";
+        position:relative;
+        display:block;
+        width: 100%;
+        height:10px;
+        background-color: $_softRed;
+        color: red;
+        font-weight: bold;
+        top: -8px;
+      }
+    }
   }
 }

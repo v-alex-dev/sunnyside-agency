@@ -1,9 +1,28 @@
 .clients{
-  display: flex;
-  flex-direction: column;
+
+  .content{
+    display: flex;
+    flex-direction: column;
+    margin: 2em auto;
+  }
+  div{
+    margin: 0 auto;
+    h2{
+      margin-top: 5em;
+    }
+  }
 
   .clients-body{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
+
+    article{
+      display: grid;
+      grid-template-rows: 1.5fr 2.5fr 1.5fr;
+      img{
+        margin: 1em auto;
+      }
+    }
   }
+
 }

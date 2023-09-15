@@ -90,7 +90,7 @@ header .title img {
 .descri-article article a::after {
   content: " ";
   display: block;
-  background-color: hsl(7, 99%, 70%);
+  background-color: hsla(7, 99%, 70%, 0.473);
   border-radius: 25%;
 }
 .descri-article img {
@@ -214,11 +214,18 @@ footer .contact ul {
     display: flex;
     margin: 1em;
     padding: 1em;
+    border-radius: 2em;
+  }
+  header nav .menu a:hover {
+    background-color: rgba(255, 255, 255, 0.158);
+    transition-duration: 500ms;
+    color: white;
   }
   header nav .menu .nav-contact {
     background-color: white;
-    border-radius: 40%;
+    border-radius: 2em;
     color: black;
+    height: 100%;
   }
   .description .art-row {
     display: grid;
@@ -242,17 +249,53 @@ footer .contact ul {
   .description .btn-learn {
     display: flex;
   }
+  .description .btn-learn .redCyan::after {
+    content: " ";
+    position: relative;
+    display: block;
+    width: 100%;
+    height: 10px;
+    background-color: hsla(51, 100%, 49%, 0.267);
+    color: red;
+    font-weight: bold;
+    top: -8px;
+  }
+  .description .btn-learn .yellow::after {
+    content: " ";
+    position: relative;
+    display: block;
+    width: 100%;
+    height: 10px;
+    background-color: hsla(7, 99%, 70%, 0.473);
+    color: red;
+    font-weight: bold;
+    top: -8px;
+  }
   .specializing {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
   }
-  .clients {
+  .clients .content {
     display: flex;
     flex-direction: column;
+    margin: 2em auto;
+  }
+  .clients div {
+    margin: 0 auto;
+  }
+  .clients div h2 {
+    margin-top: 5em;
   }
   .clients .clients-body {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
+  }
+  .clients .clients-body article {
+    display: grid;
+    grid-template-rows: 1.5fr 2.5fr 1.5fr;
+  }
+  .clients .clients-body article img {
+    margin: 1em auto;
   }
   .gallery {
     display: grid;
@@ -261,5 +304,8 @@ footer .contact ul {
   footer .link {
     margin: 0 auto;
     width: 50%;
+  }
+  footer a {
+    margin-top: 2em;
   }
 }/*# sourceMappingURL=main.css.map */

@@ -14,13 +14,23 @@ header{
         display: flex;
         margin: 1em;
         padding: 1em;
+        border-radius: 2em;
+        &:hover{
+          background-color: rgba(255, 255, 255, 0.158);
+          transition-duration: 500ms;
+          
+          color: white;
+        }
         
       }
       
       .nav-contact{
         background-color: white;
-        border-radius: 40%;
+        border-radius: 2em;
         color: black;
+        height: 100%;
+
+
       }
     }
   }
