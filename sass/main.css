@@ -2,10 +2,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Barlow:wght@100;600&family=Fraunces:opsz,wght@9..144,600;9..144,900&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Barlow:wght@100;600&family=Fraunces:opsz,wght@9..144,600&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Barlow:wght@100;600&family=Fraunces:opsz,wght@9..144,600;9..144,900&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Barlow:wght@100;600&family=Fraunces:opsz,wght@9..144,600&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Barlow:wght@100;600&family=Fraunces:opsz,wght@9..144,600;9..144,900&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Barlow:wght@100;600&family=Fraunces:opsz,wght@9..144,600&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Barlow:wght@100;600&family=Fraunces:opsz,wght@9..144,600;9..144,900&display=swap");
 * {
   margin: 0;
   padding: 0;
@@ -36,7 +32,7 @@ nav {
   padding-top: 1em;
 }
 nav .menu {
-  background-image: url("./resources/images/icons/icon-hamburger.svg");
+  background-image: url("../resources/images/icons/icon-hamburger.svg");
   width: 1em;
   height: 1em;
 }
@@ -217,10 +213,10 @@ footer .contact ul {
   header nav .menu a {
     display: flex;
     margin: 1em;
-    align-items: center;
-    background-color: white;
+    padding: 1em;
   }
   header nav .menu .nav-contact {
+    background-color: white;
     border-radius: 40%;
     color: black;
   }

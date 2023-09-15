@@ -13,11 +13,12 @@ header{
       a{
         display: flex;
         margin: 1em;
-        align-items: center;
-        background-color: white;
+        padding: 1em;
+        
       }
-
+      
       .nav-contact{
+        background-color: white;
         border-radius: 40%;
         color: black;
       }
