@@ -202,6 +202,9 @@ footer .contact ul {
   header nav {
     justify-content: space-between;
   }
+  header nav p {
+    padding-top: 4em;
+  }
   header nav .menu {
     background-image: none;
     display: flex;
