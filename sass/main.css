@@ -199,6 +199,33 @@ footer .contact ul {
 }
 
 @media screen and (min-width: 1024px) {
+  @keyframes ArrowRotate {
+    from {
+      rotate: 0deg;
+    }
+    to {
+      rotate: 360deg;
+    }
+  }
+  @keyframes ArrowTranslate {
+    from {
+      transform: translateY(0);
+    }
+    to {
+      transform: translateY(2em);
+    }
+  }
+  @keyframes animationArrow {
+    from {
+      animation: ArrowRotate 1500ms;
+    }
+    to {
+      animation: ArrowTranslate 1500ms 1500ms;
+    }
+  }
+  header {
+    height: 20%;
+  }
   header nav {
     justify-content: space-between;
   }
@@ -229,6 +256,13 @@ footer .contact ul {
     border-radius: 2em;
     color: black;
     height: 100%;
+  }
+  header .title {
+    padding-bottom: 6em;
+  }
+  header .title img:hover {
+    animation-name: animationArrow;
+    animation-duration: 1500ms;
   }
   .description .art-row {
     display: grid;
